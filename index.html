@@ -1,0 +1,297 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>NARERSWARA</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="SoonLaunch">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        /* Base styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #fff;
+            background-color: #0f172a;
+            line-height: 1.5;
+            overflow-x: hidden;
+        }
+
+        /* Header styles */
+        .header-06 {
+            padding: 20px 0;
+        }
+
+        .logo img {
+            max-height: 50px;
+        }
+
+        .header-right a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* Hero area styles */
+        .hero-area {
+            padding: 80px 0;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .heading h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 40px;
+            line-height: 1.2;
+        }
+
+        /* Countdown styles */
+        .countdown-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .countdown-item {
+            text-align: center;
+            margin-right: 30px;
+            margin-bottom: 20px;
+        }
+
+        .countdown-number {
+            font-size: 3rem;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .countdown-text {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Description styles */
+        .hero-area p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        /* Footer styles */
+        .footer {
+            padding: 20px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer p {
+            margin-bottom: 0;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            opacity: 1;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 991px) {
+            .heading h1 {
+                font-size: 3rem;
+            }
+
+            .countdown-number {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .header-right {
+                text-align: left;
+                margin-top: 15px;
+            }
+
+            .heading h1 {
+                font-size: 2.5rem;
+                text-align: center;
+            }
+
+            .countdown-container {
+                justify-content: center;
+            }
+
+            .hero-area p {
+                text-align: center;
+            }
+
+            .copyright,
+            .credit {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .heading h1 {
+                font-size: 2rem;
+            }
+
+            .countdown-number {
+                font-size: 2rem;
+            }
+
+            .countdown-item {
+                margin-right: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- ========================= main start ========================= -->
+    <main class="main-06">
+        <!-- header start  -->
+        <div class="header header-06">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-sm-6">
+                        <a href="#" class="logo">
+                            <span
+                                style="font-size: 24px; font-weight: 700; color: #fff; letter-spacing: 1px;">NARESWARA</span>
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-sm-6">
+                        <div class="header-right text-md-right">
+                            <a href="mailto:rifai@nareswara.com">Say hello! <b>Rifai@nareswara.com</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header end  -->
+
+        <!-- ========================= main-wrapper start ========================= -->
+        <div class="main-wrapper demo-06">
+            <!-- hero-area start  -->
+            <div class="hero-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <!-- heading start  -->
+                            <div class="heading animate__animated animate__fadeInUp">
+                                <h1 class="text-white">We Are <br> Coming Soon</h1>
+                            </div>
+                            <!-- heading end  -->
+                        </div>
+                        <div class="col-xl-7 col-lg-7">
+                            <!-- countdown start  -->
+                            <div class="countdown-container animate__animated animate__fadeInRight">
+                                <div class="countdown-item">
+                                    <span class="countdown-number" id="days">00</span>
+                                    <span class="countdown-text">Days</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-number" id="hours">00</span>
+                                    <span class="countdown-text">Hours</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-number" id="minutes">00</span>
+                                    <span class="countdown-text">Minutes</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-number" id="seconds">00</span>
+                                    <span class="countdown-text">Seconds</span>
+                                </div>
+                            </div>
+                            <!-- countdown end  -->
+                        </div>
+                        <div class="col-xl-5 col-lg-5">
+                            <!-- desc start  -->
+                            <p class="animate__animated animate__fadeInLeft">We're strong believers that the best
+                                solutions come from gathering new insights and pushing conventional boundaries.</p>
+                            <!-- desc end  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================= main-wrapper end ========================= -->
+
+        <!-- footer start  -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-md-7">
+                        <div class="copyright animate__animated animate__fadeInLeft">
+                            <p>Part of <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                        </div>
+                    </div> -->
+                    <div class="col-md-5">
+                        <div class="credit animate__animated animate__fadeInRight">
+                            <p>Designed and Developed by <a rel="nofollow" href="https://rifai.nareswara.com">Rifai</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer end  -->
+    </main>
+    <!-- ========================= main end ========================= -->
+
+    <!-- ========================= JS here ========================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        // Simple countdown script
+        function updateCountdown() {
+            const targetDate = new Date("2026/10/01").getTime();
+            const now = new Date().getTime();
+            const difference = targetDate - now;
+
+            if (difference < 0) {
+                document.getElementById("days").innerHTML = "00";
+                document.getElementById("hours").innerHTML = "00";
+                document.getElementById("minutes").innerHTML = "00";
+                document.getElementById("seconds").innerHTML = "00";
+                return;
+            }
+
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days < 10 ? "0" + days : days;
+            document.getElementById("hours").innerHTML = hours < 10 ? "0" + hours : hours;
+            document.getElementById("minutes").innerHTML = minutes < 10 ? "0" + minutes : minutes;
+            document.getElementById("seconds").innerHTML = seconds < 10 ? "0" + seconds : seconds;
+        }
+
+        // Initialize animation
+        document.addEventListener("DOMContentLoaded", function () {
+            // Update countdown every second
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+        });
+    </script>
+</body>
+
+</html>
